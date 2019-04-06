@@ -23,7 +23,7 @@ class SmartEnv {
 
     if (!data.containsKey('variables')) return false;
 
-    Map<String, Map<String, dynamic>> vars = data['variables'];
+    Map<String, dynamic> vars = data['variables'];
 
     for (final item in vars.values) {
       if (!item.containsKey('value') || !item.containsKey('type')) return false;
