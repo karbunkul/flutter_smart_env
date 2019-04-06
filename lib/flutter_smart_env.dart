@@ -42,7 +42,7 @@ class SmartEnv {
           if (value == null) return false;
           if (value.runtimeType != double) return false;
           break;
-        case 'bool':
+        case 'boolean':
           if (value == null) return false;
           if (value.runtimeType != bool) return false;
           break;

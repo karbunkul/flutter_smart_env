@@ -40,7 +40,7 @@ void main() {
           intName: {'value': intVal, 'type': 'number'},
           floatName: {'value': doubleVal, 'type': 'float'},
           strName: {'value': strVal, 'type': 'string'},
-          boolName: {'value': boolVal, 'type': 'bool'},
+          boolName: {'value': boolVal, 'type': 'boolean'},
         }
       };
 
